@@ -43,10 +43,7 @@ def Edit():
 
 def Delete():
     row=int(input('which row?'))
-    del product_list [row]['id']
-    del product_list [row]['name']
-    del product_list [row]['price']
-    del product_list [row]['count']
+    del product_list [row]
 
 def Search():
     key_name=input('name of product?')
